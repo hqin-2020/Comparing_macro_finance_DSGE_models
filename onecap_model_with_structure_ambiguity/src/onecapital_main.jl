@@ -150,28 +150,25 @@ end
 # alpha = 0.05
 println(alpha)
 
-# sigma_k = [.00477, .0]*2*sqrt(1.4);
-# sigma_z =  [.011, .025]*2*sqrt(1.4);
-σ_k = 0.477*2*sqrt(1.4)
-sigmaz1 = 0.011*2*sqrt(1.4)
-sigmaz2 = 0.025*2*sqrt(1.4)
-# σ_k = 0.477*2*1.1
-# sigmaz1 = 0.011*2*1.1
-# sigmaz2 = 0.025*2*1.1
+sigma_k = [.00477, .0]*2*sqrt(1.4);
+sigma_z =  [.011, .025]*2*sqrt(1.4);
+# σ_k = 0.477*2*sqrt(1.4)
+# sigmaz1 = 0.011*2*sqrt(1.4)
+# sigmaz2 = 0.025*2*sqrt(1.4)
 
-lsp = [σ_k 0.0; sigmaz1 sigmaz2]
-A = lsp * lsp'
-c = sqrt(A[2, 2])
-b = A[1, 2] / c
-a = sqrt(A[1, 1] - b^2)
-U = [a b; 0 c]
-println("U: ", U)
-L = [a 0; b c]
-println("L: ", L)
-println(U * L - A)
+# lsp = [σ_k 0.0; sigmaz1 sigmaz2]
+# A = lsp * lsp'
+# c = sqrt(A[2, 2])
+# b = A[1, 2] / c
+# a = sqrt(A[1, 1] - b^2)
+# U = [a b; 0 c]
+# println("U: ", U)
+# L = [a 0; b c]
+# println("L: ", L)
+# println(U * L - A)
 
-sigma_k = U[1, :] * 0.01 
-sigma_z = U[2, :]
+# sigma_k = U[1, :] * 0.01 
+# sigma_z = U[2, :]
 println("sigma_k: ", sigma_k)
 println("sigma_z: ", sigma_z)
 
@@ -181,7 +178,7 @@ phi = 8.0
 
 rho1 = 0.0
 rho2 = q.^2/dot(sigma_z,sigma_z)/2
-# rho2 = q.^2/dot(sigma_z,sigma_z)
+rho2 = q.^2/dot(sigma_z,sigma_z)
 
 # Grid parameters -----------------------------------------------------
 II = trunc(Int,200*zscale+1);

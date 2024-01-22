@@ -1,5 +1,5 @@
 D_10.0_distorted_0_boundary_1_delta_0.01_gamma_5.0_q_0.1_rho_1.0_upper_triangular_four_ambiguous_parameters
-Program starts Fri Jan 19 15:59:15 CST 2024
+Program starts Fri Jan 19 22:17:08 CST 2024
 parsed_args = parse_commandline() = Dict{String, Any}("dataname" => "upper_triangular_four_ambiguous_parameters", "clowerlim" => 0.0001, "delta" => 0.01, "boundary" => 1, "Delta" => 10.0, "q" => 0.1, "zmax" => 5.0, "logadjustment" => 1, "zscale" => 2.0, "foc" => 1, "distorted" => 0, "rho" => 1.0, "gamma" => 5.0)
 =============================================================
 logadjustment: true
@@ -1853,48 +1853,48 @@ lambdaB min = 0.006028620769798677
     Value Function Converged, Iteration = 102 with gamma=5.0 with rho=1.0 and v=-3.1705920855577685
     Reflective boundary condition
 =============================================================
-Convegence time (minutes): 0.11122711953333334
-Current Time = 15:59:46
+Convegence time (minutes): 0.1155621745
+Current Time = 22:17:47
 grid points for z:  401
 grid size for z:  0.025
 -0.1783994879176885
 -0.3648758362628286
---- 8.642198324203491 seconds for the elasticity computation ---
+--- 8.930490016937256 seconds for the elasticity computation ---
 -0.010090348641814911
 -0.08862109734196962
---- 0.2234046459197998 seconds for the elasticity computation ---
+--- 0.06337881088256836 seconds for the elasticity computation ---
 -0.10369460580160701
 -0.27625473892085906
---- 0.22241830825805664 seconds for the elasticity computation ---
+--- 0.06224179267883301 seconds for the elasticity computation ---
 -0.24777875600035737
 -0.3723148521105629
---- 0.2215714454650879 seconds for the elasticity computation ---
-Current Time = 15:59:57
+--- 0.06214094161987305 seconds for the elasticity computation ---
+Current Time = 22:17:58
 grid points for z:  401
 grid size for z:  0.025
 rho = 1
 0.05937926808266887
---- 8.47266697883606 seconds for the elasticity computation ---
+--- 8.714148998260498 seconds for the elasticity computation ---
 0.0
---- 0.06814980506896973 seconds for the elasticity computation ---
+--- 0.06899333000183105 seconds for the elasticity computation ---
 0.05937926808266887
---- 0.06613397598266602 seconds for the elasticity computation ---
+--- 0.06685829162597656 seconds for the elasticity computation ---
 0.0
---- 0.06614422798156738 seconds for the elasticity computation ---
+--- 0.0661616325378418 seconds for the elasticity computation ---
 0.0
---- 0.06606721878051758 seconds for the elasticity computation ---
+--- 0.06609582901000977 seconds for the elasticity computation ---
 0.05937926808266887
 0.007439015847734282
---- 0.06607341766357422 seconds for the elasticity computation ---
+--- 0.0667104721069336 seconds for the elasticity computation ---
 0.05937926808266887
 0.007439015847734282
---- 0.06558775901794434 seconds for the elasticity computation ---
+--- 0.06639719009399414 seconds for the elasticity computation ---
 0.05937926808266887
 0.007439015847734282
---- 0.06539440155029297 seconds for the elasticity computation ---
+--- 0.06611108779907227 seconds for the elasticity computation ---
 0.05937926808266887
 0.007439015847734282
---- 0.06547832489013672 seconds for the elasticity computation ---
+--- 0.06581401824951172 seconds for the elasticity computation ---
 parsed_args = parse_commandline() = Dict{String, Any}("dataname" => "upper_triangular_four_ambiguous_parameters", "clowerlim" => 0.0001, "delta" => 0.01, "boundary" => 1, "Delta" => 10.0, "q" => 0.1, "zmax" => 5.0, "logadjustment" => 1, "zscale" => 2.0, "foc" => 1, "distorted" => 0, "rho" => 1.0, "gamma" => 5.0)
 =============================================================
 ./output/upper_triangular_four_ambiguous_parameters/Delta_10.0_distorted_0/logadjustment_1_boundary_1/zmax_5.0_zscale_2.0/delta_0.01/q_0.1_gamma_5.0_rho_1.0/
@@ -1915,5 +1915,5 @@ structured_relative_entropy = 0.10126142683735892
 solve for unstructured linear system 
 q_update = 0.2326598358394605
 =============================================================
-Program ends Fri Jan 19 16:00:40 CST 2024
-Elapsed time: 0 days 00 hr 01 min 25 sec
+Program ends Fri Jan 19 22:18:41 CST 2024
+Elapsed time: 0 days 00 hr 01 min 33 sec

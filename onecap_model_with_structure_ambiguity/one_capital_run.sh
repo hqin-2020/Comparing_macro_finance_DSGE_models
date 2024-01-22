@@ -46,6 +46,9 @@ for Delta in ${Deltaarray[@]}; do
                                     count=0
 
                                     action_name="upper_triangular_four_ambiguous_parameters"
+                                    action_name="upper_triangular_two_ambiguous_parameters"
+                                    action_name="lower_triangular_four_ambiguous_parameters"
+                                    action_name="lower_triangular_two_ambiguous_parameters"
 
                                     dataname="${action_name}"
 

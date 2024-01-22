@@ -1,0 +1,120 @@
+ERROR: LoadError: UndefVarError: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTOP not defined
+Stacktrace:
+ [1] robust_control_variables!(s1::Vector{Float64}, s2::Vector{Float64}, lambda::Vector{Float64}, zz::Vector{Float64}, V::Vector{Float64}, Vz::Vector{Float64}, II::Int64, model::OneCapitalEconomy{Float64})
+   @ Main /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_utilities.jl:213
+ [2] value_function_onecapital(gamma::Float64, rho::Float64, model::OneCapitalEconomy{Float64}, grid::Grid_rz{Float64}, params::FinDiffMethod, preloadV0::Vector{Float64}, preloadd::Vector{Float64}, preloadcons::Vector{Float64}, foc::Int64, clowerlim::Float64, logadjustment::Bool, reflective_boundary::Bool)
+   @ Main /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_utilities.jl:545
+ [3] macro expansion
+   @ /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_main.jl:299 [inlined]
+ [4] top-level scope
+   @ ./timing.jl:299
+in expression starting at /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_main.jl:298
+srun: error: midway3-0047: task 0: Exited with exit code 1
+
+Bad key text.latex.preview in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+Traceback (most recent call last):
+  File "/project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_elasticity_decomposition.py", line 57, in <module>
+    res = np.load(filename_ell + filename)
+  File "/home/hqin/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 407, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: './output/upper_triangular_two_ambiguous_parameters/Delta_10.0_distorted_0/logadjustment_1_boundary_0/zmax_5.0_zscale_2.0/delta_0.015/q_0.3_gamma_12.0_rho_1.0/model.npz'
+
+Bad key text.latex.preview in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /software/python-anaconda-2020.11-el8-x86_64/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.7.1/matplotlibrc.template
+or from the matplotlib source distribution
+Traceback (most recent call last):
+  File "/project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_shock_elasticity.py", line 57, in <module>
+    res = np.load(filename_ell + filename)
+  File "/home/hqin/.local/lib/python3.8/site-packages/numpy/lib/npyio.py", line 407, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: './output/upper_triangular_two_ambiguous_parameters/Delta_10.0_distorted_0/logadjustment_1_boundary_0/zmax_5.0_zscale_2.0/delta_0.015/q_0.3_gamma_12.0_rho_1.0/model.npz'
+ERROR: LoadError: SystemError: opening file "./output/upper_triangular_two_ambiguous_parameters/Delta_10.0_distorted_0/logadjustment_1_boundary_0/zmax_5.0_zscale_2.0/delta_0.015/q_0.3_gamma_12.0_rho_1.0/model.npz": No such file or directory
+Stacktrace:
+ [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+   @ Base ./error.jl:174
+ [2] #systemerror#68
+   @ ./error.jl:173 [inlined]
+ [3] systemerror
+   @ ./error.jl:173 [inlined]
+ [4] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Nothing, append::Nothing)
+   @ Base ./iostream.jl:293
+ [5] open
+   @ ./iostream.jl:282 [inlined]
+ [6] npzread(::String)
+   @ NPZ ~/.julia/packages/NPZ/UCofn/src/NPZ.jl:271
+ [7] top-level scope
+   @ /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_entropy_natural.jl:93
+in expression starting at /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_entropy_natural.jl:93
+srun: error: midway3-0047: task 0: Exited with exit code 1
+ERROR: LoadError: SystemError: opening file "./output/upper_triangular_two_ambiguous_parameters/Delta_10.0_distorted_0/logadjustment_1_boundary_0/zmax_5.0_zscale_2.0/delta_0.015/q_0.3_gamma_12.0_rho_1.0/model.npz": No such file or directory
+Stacktrace:
+ [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+   @ Base ./error.jl:174
+ [2] #systemerror#68
+   @ ./error.jl:173 [inlined]
+ [3] systemerror
+   @ ./error.jl:173 [inlined]
+ [4] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Nothing, append::Nothing)
+   @ Base ./iostream.jl:293
+ [5] open
+   @ ./iostream.jl:282 [inlined]
+ [6] npzread(::String)
+   @ NPZ ~/.julia/packages/NPZ/UCofn/src/NPZ.jl:271
+ [7] top-level scope
+   @ /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_entropy_reflective.jl:93
+in expression starting at /project/lhansen/Comparing_macro_finance_DSGE_models/onecap_model_with_structure_ambiguity/src/onecapital_entropy_reflective.jl:93
+srun: error: midway3-0047: task 0: Exited with exit code 1

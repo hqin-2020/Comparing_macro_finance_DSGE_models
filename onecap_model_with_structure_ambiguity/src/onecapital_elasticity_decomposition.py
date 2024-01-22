@@ -186,8 +186,8 @@ with open(filename_ell +"model_dis_sol_"+quantile_var, "wb") as f:
 
 #%%
 
-T = 50*4
-dt = 1/4
+T = 50
+dt = 1
 
 bc = {'natural':True}
 
