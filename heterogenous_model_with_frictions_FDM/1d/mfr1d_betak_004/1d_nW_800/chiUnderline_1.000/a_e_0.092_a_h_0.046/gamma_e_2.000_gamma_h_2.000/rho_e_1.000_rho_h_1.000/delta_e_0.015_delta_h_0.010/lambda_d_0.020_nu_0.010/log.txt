@@ -1,0 +1,53 @@
+paramLine 120: 1 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+paramLine 127: 1 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+stateVarsLine 150: 0.0112879
+        0
+        0
+        0
+stateVarsLine 181: 0.0112879
+        0
+        0
+        0
+Finished resizing sigmaK, sigmaQ, sigmaR
+Finished setting sigmaK, sigmaQ, sigmaR to zero
+Finished creating empty matrices
+paramLine 120: 1 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+paramLine 127: 1 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Start to run program. Run name: output/mfr1d_betak_004/1d_nW_800/chiUnderline_1.000/a_e_0.092_a_h_0.046/gamma_e_2.000_gamma_h_2.000/rho_e_1.000_rho_h_1.000/delta_e_0.015_delta_h_0.010/lambda_d_0.020_nu_0.010
+Computing for error
+Updating value functions
+
+========================= Iteration: 0 =============================
+First iteration: no error information.
+Households allowed to hold capital, use kappa = w or the preloaded solution as guess.
+Households are allowed to hold capital - need to solve for kappa. Inner tolerance: 1e-05
+Experts are either not allowed to isuse equity or the constraint binds always, setting chi to constraint everywhere
+Inner loop is completed; time elapsed: 0.154191; took 2213 iterations.
+Finished computing derivs
+Finished updating equilibrium quantities. Next step: update matrices.
+Finished updating matrix.
+Finished updating the known vector.
+Solving systems using the implicit scheme via CG...
+Running conjugate gradient solver using 1 threads.
+CG error tolerance: 1e-07
+Conjugate gradient (not preconditioned) took 1600 (experts) and 1600 (households) iterations.
+Solved linear systems.
+Iteration 0 is completed; time elapsed: 0.181923; time spent on solving linear systems (or computing matrix vector product in explicit scheme): 0.027158
+Computing for error
+Updating value functions
+
+=========================================================
+END OF ITERATIONS: VALUE FUNCTIONS CONTAIN NAN OR INF VALUES
+=========================================================
